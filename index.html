@@ -4,26 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Fix</title>
+  <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <elevenlabs-convai agent-id="qk1KakhOapL9DijrWizi"></elevenlabs-convai>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const widget = document.querySelector('elevenlabs-convai');
-      if (widget) {
-        console.log("Widget initialized.");
-      } else {
-        console.error("Widget failed to load.");
-      }
-    });
-
-    navigator.mediaDevices.getUserMedia({ audio: true })
-      .then(() => console.log("Microphone permission granted."))
-      .catch((err) => console.error("Microphone permission denied:", err));
-  </script>
   <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 </body>
 
